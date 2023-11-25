@@ -1,0 +1,338 @@
+{
+  "user": [
+    {
+      "name": "murtaza",
+      "email": "abc@test.com",
+      "password": "qwe",
+      "id": 1
+    },
+    {
+      "email": "qwe@test.com",
+      "name": "abbas",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Savor Haven",
+      "address": "123 Gourmet Blvd, Culinary City",
+      "contact": "+1 (555) 123-4567",
+      "open_time": "08:00 AM",
+      "closed_time": "09:00 PM",
+      "menu_items": [
+        "Truffle Risotto",
+        "Grilled Salmon",
+        "Caprese Salad",
+        "Chocolate Fondue"
+      ],
+      "employee_count": 15,
+      "description": "Savor Haven offers a fine dining experience with a menu inspired by international cuisine. Enjoy the elegance and sophistication in every bite."
+    },
+    {
+      "id": 2,
+      "name": "Flame Fusion",
+      "address": "456 Spice Street, Flavor Town",
+      "contact": "+1 (555) 987-6543",
+      "open_time": "11:30 AM",
+      "closed_time": "10:00 PM",
+      "menu_items": [
+        "Fire Grilled Ribeye",
+        "Spicy Tofu Stir-Fry",
+        "Mango Habanero Wings",
+        "Chili Chocolate Mousse"
+      ],
+      "employee_count": 20,
+      "description": "Flame Fusion ignites your taste buds with a blend of bold flavors and exotic spices. Experience a culinary journey that embraces the art of fusion cuisine."
+    },
+    {
+      "id": 3,
+      "name": "Bella Vista Bistro",
+      "address": "789 Sunset Avenue, Panoramic Plaza",
+      "contact": "+1 (555) 321-6789",
+      "open_time": "09:00 AM",
+      "closed_time": "08:00 PM",
+      "menu_items": [
+        "Eggplant Parmesan",
+        "Seafood Linguine",
+        "Antipasto Platter",
+        "Tiramisu"
+      ],
+      "employee_count": 18,
+      "description": "Bella Vista Bistro, where the scenic view meets exquisite flavors. Indulge in authentic Italian dishes crafted with passion and served in a charming ambiance."
+    },
+    {
+      "id": 4,
+      "name": "Spice Kingdom",
+      "address": "101 Curry Lane, Aroma City",
+      "contact": "+1 (555) 234-5678",
+      "open_time": "12:00 PM",
+      "closed_time": "10:30 PM",
+      "menu_items": [
+        "Butter Chicken",
+        "Vegetable Biryani",
+        "Paneer Tikka",
+        "Mango Lassi"
+      ],
+      "employee_count": 22,
+      "description": "Journey through the Spice Kingdom with a symphony of aromatic Indian dishes. Each bite is a celebration of spices, creating an unforgettable dining experience."
+    },
+    {
+      "id": 5,
+      "name": "Coastal Catch",
+      "address": "876 Oceanfront Drive, Seafood Bay",
+      "contact": "+1 (555) 876-5432",
+      "open_time": "11:00 AM",
+      "closed_time": "09:00 PM",
+      "menu_items": [
+        "Lobster Bisque",
+        "Grilled Swordfish",
+        "Shrimp Scampi",
+        "Key Lime Pie"
+      ],
+      "employee_count": 17,
+      "description": "At Coastal Catch, indulge in the freshest seafood prepared with a coastal twist. Enjoy the sea breeze and a variety of dishes inspired by the ocean's bounty."
+    },
+    {
+      "id": 6,
+      "name": "Garden Greens",
+      "address": "234 Harvest Lane, Veggie Ville",
+      "contact": "+1 (555) 345-6789",
+      "open_time": "10:00 AM",
+      "closed_time": "08:30 PM",
+      "menu_items": [
+        "Quinoa Salad",
+        "Stuffed Bell Peppers",
+        "Vegetarian Lasagna",
+        "Mixed Berry Parfait"
+      ],
+      "employee_count": 14,
+      "description": "Garden Greens is a haven for vegetarians. Delight in the goodness of fresh, seasonal vegetables prepared in creative and wholesome ways."
+    },
+    {
+      "id": 7,
+      "name": "Fiesta Flavors",
+      "address": "567 Salsa Street, Latin Land",
+      "contact": "+1 (555) 567-8901",
+      "open_time": "12:30 PM",
+      "closed_time": "11:00 PM",
+      "menu_items": [
+        "Tacos Al Pastor",
+        "Ceviche",
+        "Chiles Rellenos",
+        "Churros with Chocolate Sauce"
+      ],
+      "employee_count": 20,
+      "description": "Fiesta Flavors brings the vibrancy of Latin cuisine to your table. Savor the bold and spicy dishes that showcase the rich tapestry of Latin American flavors."
+    },
+    {
+      "id": 8,
+      "name": "The Roaring Grill",
+      "address": "789 Ember Road, Smokin' City",
+      "contact": "+1 (555) 678-9012",
+      "open_time": "11:00 AM",
+      "closed_time": "10:00 PM",
+      "menu_items": [
+        "BBQ Ribs",
+        "Pulled Pork Sandwich",
+        "Smoked Brisket",
+        "Banana Foster Sundae"
+      ],
+      "employee_count": 25,
+      "description": "Experience the bold and smoky flavors at The Roaring Grill. Our grill masters craft mouthwatering BBQ dishes that will leave you craving more."
+    },
+    {
+      "id": 9,
+      "name": "Zen Garden Sushi",
+      "address": "101 Tranquil Lane, Sushi Springs",
+      "contact": "+1 (555) 789-0123",
+      "open_time": "12:30 PM",
+      "closed_time": "09:30 PM",
+      "menu_items": [
+        "Sashimi Platter",
+        "Dragon Roll",
+        "Edamame",
+        "Green Tea Ice Cream"
+      ],
+      "employee_count": 16,
+      "description": "Find serenity in every bite at Zen Garden Sushi. Immerse yourself in the art of sushi with our meticulously crafted rolls and fresh sashimi selections."
+    },
+    {
+      "id": 10,
+      "name": "Cafe Nouveau",
+      "address": "876 Chic Avenue, Trendy Town",
+      "contact": "+1 (555) 901-2345",
+      "open_time": "09:30 AM",
+      "closed_time": "07:00 PM",
+      "menu_items": [
+        "Avocado Toast",
+        "Quiche Lorraine",
+        "Matcha Latte",
+        "Blueberry Cheesecake"
+      ],
+      "employee_count": 12,
+      "description": "Cafe Nouveau is a chic and trendy spot for the modern palate. Enjoy a fusion of international flavors in a relaxed and stylish atmosphere."
+    },
+    {
+      "id": 11,
+      "name": "Rustic Taverna",
+      "address": "234 Vineyard Lane, Wine Valley",
+      "contact": "+1 (555) 123-4567",
+      "open_time": "11:00 AM",
+      "closed_time": "10:00 PM",
+      "menu_items": [
+        "Lamb Moussaka",
+        "Spanakopita",
+        "Roasted Red Pepper Hummus",
+        "Baklava"
+      ],
+      "employee_count": 18,
+      "description": "Escape to the Mediterranean at Rustic Taverna. Enjoy the rustic charm and savory delights of Greek and Mediterranean cuisine in a cozy setting."
+    },
+    {
+      "id": 12,
+      "name": "Umami Utopia",
+      "address": "456 Savory Street, Flavorville",
+      "contact": "+1 (555) 987-6543",
+      "open_time": "12:00 PM",
+      "closed_time": "09:00 PM",
+      "menu_items": [
+        "Miso Ramen",
+        "Sushi Burrito",
+        "Chicken Katsu",
+        "Green Tea Tiramisu"
+      ],
+      "employee_count": 20,
+      "description": "Umami Utopia is a haven for umami enthusiasts. Dive into a world of savory delights with our carefully crafted Japanese-inspired dishes."
+    },
+    {
+      "id": 13,
+      "name": "Golden Wok",
+      "address": "789 Noodle Avenue, Wok City",
+      "contact": "+1 (555) 321-6789",
+      "open_time": "11:30 AM",
+      "closed_time": "10:30 PM",
+      "menu_items": [
+        "General Tso's Chicken",
+        "Shrimp Lo Mein",
+        "Vegetable Spring Rolls",
+        "Fortune Cookie Ice Cream"
+      ],
+      "employee_count": 22,
+      "description": "Golden Wok brings the flavors of the East to your table. Indulge in the wok-tossed goodness of Chinese cuisine with a modern twist."
+    },
+    {
+      "id": 14,
+      "name": "Mango Tango Cafe",
+      "address": "101 Tropical Boulevard, Fruitland",
+      "contact": "+1 (555) 234-5678",
+      "open_time": "10:30 AM",
+      "closed_time": "09:00 PM",
+      "menu_items": [
+        "Mango Chicken Curry",
+        "Papaya Salad",
+        "Coconut Rice Pudding",
+        "Mango Sorbet"
+      ],
+      "employee_count": 17,
+      "description": "Dance to the rhythm of tropical flavors at Mango Tango Cafe. Immerse yourself in the vibrant and fruity creations inspired by exotic destinations."
+    },
+    {
+      "id": 15,
+      "name": "Smokehouse Blues",
+      "address": "876 Hickory Lane, BBQ Junction",
+      "contact": "+1 (555) 876-5432",
+      "open_time": "12:00 PM",
+      "closed_time": "08:30 PM",
+      "menu_items": [
+        "Kansas City Ribs",
+        "Texas Brisket",
+        "Southern Fried Chicken",
+        "Peach Cobbler"
+      ],
+      "employee_count": 14,
+      "description": "Savor the soulful flavors of the South at Smokehouse Blues. Our BBQ classics are slow-cooked to perfection, delivering a symphony of smoky goodness."
+    },
+    {
+      "id": 16,
+      "name": "Noodle Nirvana",
+      "address": "234 Ramen Road, Brothville",
+      "contact": "+1 (555) 345-6789",
+      "open_time": "11:00 AM",
+      "closed_time": "10:00 PM",
+      "menu_items": [
+        "Tonkotsu Ramen",
+        "Udon Noodle Soup",
+        "Vegetarian Pad Thai",
+        "Matcha Green Tea"
+      ],
+      "employee_count": 20,
+      "description": "Discover noodle bliss at Noodle Nirvana. From rich ramen bowls to flavorful udon soups, experience the artistry of Asian noodle cuisine."
+    },
+    {
+      "id": 17,
+      "name": "Crispy Creperie",
+      "address": "567 Batter Lane, Crepe City",
+      "contact": "+1 (555) 567-8901",
+      "open_time": "10:30 AM",
+      "closed_time": "09:00 PM",
+      "menu_items": [
+        "Nutella Banana Crepe",
+        "Savory Spinach and Feta Crepe",
+        "Caramel Apple Cider",
+        "French Vanilla Latte"
+      ],
+      "employee_count": 18,
+      "description": "Indulge in the delicate art of crepes at Crispy Creperie. From sweet to savory, our crepes are a culinary journey through French-inspired delights."
+    },
+    {
+      "id": 18,
+      "name": "Sunset Sweets",
+      "address": "789 Sugar Lane, Dessert Haven",
+      "contact": "+1 (555) 678-9012",
+      "open_time": "12:30 PM",
+      "closed_time": "11:00 PM",
+      "menu_items": [
+        "Triple Chocolate Mousse Cake",
+        "Lemon Tart",
+        "Red Velvet Cupcakes",
+        "Affogato"
+      ],
+      "employee_count": 25,
+      "description": "At Sunset Sweets, the day ends on a sweet note. Indulge in our decadent desserts and experience the joy of a sugar-filled paradise."
+    },
+    {
+      "id": 19,
+      "name": "Mystic Masala",
+      "address": "101 Spice Lane, Curry Cove",
+      "contact": "+1 (555) 901-2345",
+      "open_time": "11:00 AM",
+      "closed_time": "10:00 PM",
+      "menu_items": [
+        "Chicken Vindaloo",
+        "Aloo Gobi",
+        "Mango Lassi",
+        "Gulab Jamun"
+      ],
+      "employee_count": 16,
+      "description": "Experience the enchanting flavors of Mystic Masala. Our aromatic spices and bold Indian dishes take your taste buds on a mystical journey."
+    },
+    {
+      "id": 20,
+      "name": "Rendezvous Ristorante",
+      "address": "876 Piazza Square, Romance Ville",
+      "contact": "+1 (555) 123-4567",
+      "open_time": "08:00 AM",
+      "closed_time": "09:30 PM",
+      "menu_items": [
+        "Lobster Ravioli",
+        "Filet Mignon",
+        "Tuscan White Bean Soup",
+        "Cannoli"
+      ],
+      "employee_count": 22,
+      "description": "Savor a romantic rendezvous at Rendezvous Ristorante. Our menu is a symphony of flavors designed to create the perfect atmosphere for love and indulgence."
+    }
+  ]
+}
